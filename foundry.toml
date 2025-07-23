@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = [
+    '@openzeppelin/=lib/openzeppelin-contracts/',
+    '@chainlink/=lib/chainlink/',
+]
+
+[etherscan]
+sepolia = { key = "${ETHERSCAN_API_KEY}" }
